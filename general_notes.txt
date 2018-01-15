@@ -1,0 +1,7 @@
+Portfolio Page
+
+Colors
+
+Hex Code: #4aaaa5 //Turquoise 
+Hex Code: #666666 //Gray
+Hex Code: #fff // white
