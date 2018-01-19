@@ -537,16 +537,16 @@ img{
 		background-color: #4aaaa5;
 	    position: relative;
 	    bottom: 0;
-	    margin: 0;
-	    width: 100%;
-	    height: 50%;
+	    margin: 0 3%;
+	    width: 25%;
+	    height: 100%;
 	    padding: 0;
-	    text-align: center;
+	    float: left;
 	}
 
 	h1 {
 		position: relative;
-		top: 10%;
+		top: 60%;
 	}
 
 	#name {
@@ -554,18 +554,20 @@ img{
 		height: 50%;
 		font-size: 24px;
 		position: relative;
-		bottom: 50%;
+		bottom: 25%;
 		left: -3%;
 	}
 
 	#nav {
-	    position: absolute;
-	    top: 62%;
-	    left: 0%;
+	    position: relative;
+	    top: 40%;
+	    left: 10%;
 	    padding: 0;
-	    width: 95%;
+	    width: 50%;
 	    height: 50%;
-	    margin: 0;		
+	    margin: 0;
+	    display: inline;
+	    float: right;		
 	}
 
 	a#head_anchor {
@@ -573,7 +575,7 @@ img{
 	}
 
 	.anchor {
-		padding: 0 12%;
+		padding: 0 5%;
 	    text-decoration: none;
 	    font-size: 1em;
 	}
@@ -608,8 +610,8 @@ img{
 	}
 
 	#bio_image {
-		margin: 0 5% 0 3%;
-		padding: 2% 10%;
+		margin: 0 1% 0 3%;
+		padding: 2% 0;
 	}
 
 	#bio_para{
@@ -618,8 +620,8 @@ img{
 	}
 
 	img {
-		width: 90%;
-		height: 80%;
+		width: 50%;
+		height: 40%;
 		border-radius: 5%;
 	}	
 
@@ -651,6 +653,34 @@ img{
 		padding: 3% 2%;
 		float: right;
 	}		
+
+	/*Portfolio page*/
+
+	.portfolio {
+	    background-color: #fff;
+	    border: 1px ridge #dddddd;
+	    width: 95%;
+	    height: 675px;
+	    margin: 1%;
+	    padding: 20px;
+	    position: relative;
+	    left: 3%;		
+	}	
+	/*Contact page*/
+
+	.form {
+		background-color: #fff;
+	    border: 1px ridge #dddddd;
+	    width: 95%;
+	    height: 425px;
+	    margin: 1%;
+	    padding: 20px;
+	    color: #777;
+	    font-size: 16px;
+	    position: relative;
+	    left: 3%;
+	}
+	
 
 	#footer {
 		background-color: #777;
